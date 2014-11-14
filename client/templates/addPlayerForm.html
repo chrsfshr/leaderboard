@@ -1,0 +1,10 @@
+<template name="addPlayerForm">
+	{{#if currentUser}}
+		<form class="z-depth-2">
+			<input type="text" name="playerName" placeholder="Enter Player Name">
+			<input type="submit" value="Add Player" class="waves-effect waves-light btn" id="btn">
+			<input type="button" class="remove" value="Remove Player" id="btn">
+		</form>
+	{{/if}}
+</template>
+
