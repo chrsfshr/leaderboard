@@ -1,6 +1,18 @@
 <template name="leaderboard">
 
+<ul class="collection with-header z-depth-2">{{#each player}}
+	<li class="player {{selectedClass}} collection-item">{{name}} <span class="score">{{score}}</span></li>
+{{/each}}</ul>
 
+<input type="button" class="increment" value="Give 5 Points" id="btn" >
+
+<input type="button" class="decrement" value="Lose 5 Points" id="btn" >
+<br>
+<br>
+
+{{> addPlayerForm}}
+
+<br>
 
 
 
