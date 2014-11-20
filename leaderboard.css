@@ -29,6 +29,7 @@ form.z-depth-2 {
 	float: right;
 }
 
+
 @media screen and (max-width: 480px) {
 	.remove {
 		float: none;
